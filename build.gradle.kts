@@ -1,11 +1,11 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.4.32"
+    kotlin("jvm") version "1.6.10"
 }
 
-val lwjglVersion = "3.2.3"
-val lwjglNatives = "natives-windows"
+val lwjglVersion = "3.3.0"
+val lwjglNatives = "natives-macos"
 
 group = "com.lowlevelsubmarine"
 version = "1.0-SNAPSHOT"

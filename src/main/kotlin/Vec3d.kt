@@ -1,7 +1,7 @@
-data class Vec3d(public val x: Float, public val y: Float, public val z: Float) {
+data class Vec3d(val x: Float, val y: Float, val z: Float) {
 
-    public constructor(value: Float) : this(value, value, value)
-    public constructor() : this(0f)
+    constructor(value: Float) : this(value, value, value)
+    constructor() : this(0f)
 
     fun multiply(vec: Vec3d): Vec3d {
         return multiply(this, vec)

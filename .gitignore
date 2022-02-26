@@ -1,8 +1,8 @@
 # Intellij
-.idea
+/.idea/
 
 # Gradle cache
-.gradle
+/.gradle/
 
 # Gradle build
 **/build/
