@@ -6,10 +6,12 @@ import static org.lwjgl.opengl.GL11.glClear;
 
 public class Renderer {
 
-    public Renderer() {        
+    public Renderer() {
+
     }
     
-    public void init() throws Exception {        
+    public void init() throws Exception {
+
     }
 
     public void clear() {

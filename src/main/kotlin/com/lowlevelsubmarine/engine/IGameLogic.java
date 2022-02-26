@@ -9,4 +9,5 @@ public interface IGameLogic {
     void update(float interval);
     
     void render(Window window);
+
 }

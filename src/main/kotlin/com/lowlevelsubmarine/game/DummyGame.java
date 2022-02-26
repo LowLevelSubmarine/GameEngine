@@ -1,10 +1,11 @@
 package com.lowlevelsubmarine.game;
 
+import com.lowlevelsubmarine.engine.IGameLogic;
+import com.lowlevelsubmarine.engine.Window;
+
 import static org.lwjgl.glfw.GLFW.GLFW_KEY_DOWN;
 import static org.lwjgl.glfw.GLFW.GLFW_KEY_UP;
 import static org.lwjgl.opengl.GL11.glViewport;
-import org.lwjglb.engine.IGameLogic;
-import org.lwjglb.engine.Window;
 
 public class DummyGame implements IGameLogic {
 
@@ -54,4 +55,5 @@ public class DummyGame implements IGameLogic {
         window.setClearColor(color, color, color, 0.0f);
         renderer.clear();
     }
+
 }
